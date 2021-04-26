@@ -29,7 +29,7 @@ repositories {
 dependencies {
   // Required for generating JSR-303 annotations
   implementation 'javax.validation:validation-api:2.0.1.Final'
-  implementation 'com.fasterxml.jackson.core:jackson-annotations:2.10.1'
+  implementation 'com.fasterxml.jackson.core:jackson-annotations:2.12.3'
   implementation 'com.squareup.moshi:moshi:1.9.2'
 
   testImplementation 'junit:junit:4.+'
